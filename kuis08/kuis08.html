@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="kuis08.js"> </script>
+  <style>
+    #container {
+    text-align: center;
+    margin: 50px;
+}
+
+#box, #slideBox, #toggleBox {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    margin: 20px;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    transform: translate(-30%, -47%);
+}
+
+.hidden {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    transform: translate(-30%, -47%);
+}
+
+  </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Penerapan jQuery Effects</h1>
+        <button id="fadeInBtn">Fade In</button>
+        <button id="fadeOutBtn">Fade Out</button>
+        <div id="box" class="hidden"></div>
+        <button id="slideDownBtn">Slide Down</button>
+        <button id="slideUpBtn">Slide Up</button>
+        <div id="slideBox" class="hidden"></div>
+        <button id="showBtn">Show</button>
+        <button id="hideBtn">Hide</button>
+        <div id="toggleBox" class="hidden"></div>
+
+    </div>
+</body>
+</html>

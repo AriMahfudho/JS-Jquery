@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery DOM Methods</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="kuis09.js"></script>
+    <style>
+        #container {
+        text-align: center;
+        margin: 50px;
+        }
+        #appendContainer,#removeDiv,#dataDiv {
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>jQuery DOM Methods</h1>
+      <button id="setTextBtn">Set Text</button>
+      <p id="textParagraph">Original Text</p>
+      <button id="appendBtn">Append HTML</button>
+      <div id="appendContainer"></div>
+      <button id="attrBtn">Change Attribute</button>
+      <img id="attrImage" src="old image.jpg" alt="Old Image" />
+      <button id="removeBtn">Remove Element</button>
+      <div id="removeDiv"></div>
+    </div>
+  </body>
+</html>
